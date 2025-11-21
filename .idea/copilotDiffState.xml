@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/SistemaDeGestionDeEmpleados/procesar_nomina.py">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/SistemaDeGestionDeEmpleados/procesar_nomina.py" />
+              <option name="originalContent" value="from typing import List&#10;from SistemaDeGestionDeEmpleados.empleado import Empleado&#10;&#10;def procesar_nomina(empleados: List[Empleado]) -&gt; None:&#10;    total_pagos = 0&#10;    for empleado in empleados:&#10;        bono = empleado.calcular_bono()&#10;        salario_total = empleado.salario_base + bono&#10;        total_pagos += salario_total&#10;        print(f&quot;Empleado: {empleado.nombre}&quot;)&#10;        print(f&quot;Salario Base: ${empleado.salario_base:.2f}&quot;)&#10;        print(f&quot;Bono: ${bono:.2f}&quot;)&#10;        print(f&quot;Salario Total: ${salario_total:.2f}&quot;)&#10;        print(empleado.generar_reporte())&#10;        print(&quot;-&quot; * 50)&#10;    print(f&quot;Total de nómina: ${total_pagos:.2f}&quot;)" />
+              <option name="updatedContent" value="from typing import List&#10;from SistemaDeGestionDeEmpleados.empleado import Empleado&#10;&#10;def procesar_nomina(empleados: List[Empleado]) -&gt; None:&#10;    total_pagos = 0&#10;    for empleado in empleados:&#10;        bono = empleado.calcular_bono()&#10;        salario_total = empleado.salario_base + bono&#10;        total_pagos += salario_total&#10;        print(f&quot;Empleado: {empleado.nombre}&quot;)&#10;        print(f&quot;Salario Base: ${empleado.salario_base:.2f}&quot;)&#10;        print(f&quot;Bono: ${bono:.2f}&quot;)&#10;        print(f&quot;Salario Total: ${salario_total:.2f}&quot;)&#10;        print(empleado.generar_reporte())&#10;        print(&quot;-&quot; * 50)&#10;    print(f&quot;Total de nómina: ${total_pagos:.2f}&quot;)" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
